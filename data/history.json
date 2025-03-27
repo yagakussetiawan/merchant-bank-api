@@ -1,0 +1,46 @@
+[
+  {
+    "id": "db2bbb8aeaa9d333",
+    "customer_id": "1",
+    "action": "login",
+    "timestamp": "2025-03-27T19:35:10+07:00"
+  },
+  {
+    "id": "6687b58d680ce096",
+    "customer_id": "1",
+    "action": "login",
+    "timestamp": "2025-03-27T19:42:52+07:00"
+  },
+  {
+    "id": "e229771943249c10",
+    "customer_id": "1",
+    "action": "login",
+    "timestamp": "2025-03-27T19:44:17+07:00"
+  },
+  {
+    "id": "14561e84227dec52",
+    "customer_id": "1",
+    "action": "login",
+    "timestamp": "2025-03-27T19:44:34+07:00"
+  },
+  {
+    "id": "46cb33d78dd7bd24",
+    "customer_id": "1",
+    "action": "payment",
+    "amount": 100,
+    "timestamp": "2025-03-27T19:45:11+07:00"
+  },
+  {
+    "id": "2b71670a7fc40309",
+    "customer_id": "1",
+    "action": "payment",
+    "amount": 10000,
+    "timestamp": "2025-03-27T19:45:26+07:00"
+  },
+  {
+    "id": "c0a62c9b7911ca45",
+    "customer_id": "1",
+    "action": "logout",
+    "timestamp": "2025-03-27T19:46:26+07:00"
+  }
+]
