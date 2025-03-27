@@ -3,7 +3,7 @@ package models
 type Customer struct {
 	ID       string `json:"id"`
 	Username string `json:"username"`
-	Password string `json:"password"` // In production, hash this!
+	Password string `json:"password"`
 }
 
 type Merchant struct {
@@ -14,7 +14,7 @@ type Merchant struct {
 type History struct {
 	ID         string `json:"id"`
 	CustomerID string `json:"customer_id"`
-	Action     string `json:"action"` // e.g., "login", "payment", "logout"
+	Action     string `json:"action"`
 	Amount     int    `json:"amount,omitempty"`
 	Timestamp  string `json:"timestamp"`
 }
